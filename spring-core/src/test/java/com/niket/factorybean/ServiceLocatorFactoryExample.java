@@ -1,8 +1,8 @@
-package com;
+package com.niket.factorybean;
 
-import com.niket.AppConfig;
-import com.niket.ParserService;
-import com.niket.ParserType;
+import com.niket.factorybean.AppConfig;
+import com.niket.factorybean.ParserService;
+import com.niket.factorybean.ParserType;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,5 +20,6 @@ public class ServiceLocatorFactoryExample {
     public void testParserFactory() {
         parserService.doParse("Srilekha", ParserType.JSON);
         parserService.doParse("Srilekha", ParserType.XML);
+        parserService.doParse("Srilekha", ParserType.CSVParser);
     }
 }

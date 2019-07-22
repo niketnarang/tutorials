@@ -1,4 +1,4 @@
-package com.niket;
+package com.niket.factorybean;
 
 import org.springframework.beans.factory.FactoryBean;
 import org.springframework.beans.factory.config.ServiceLocatorFactoryBean;
@@ -25,5 +25,10 @@ public class AppConfig {
     @Bean(name = "xmlParser")
     public XMLParser xmlParser() {
         return new XMLParser();
+    }
+
+    @Bean(name = "csvParser")
+    public CSVParser csvParser() {
+        return new CSVParser();
     }
 }

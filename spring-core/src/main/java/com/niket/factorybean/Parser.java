@@ -1,4 +1,4 @@
-package com.niket;
+package com.niket.factorybean;
 
 public interface Parser {
     void parse(String string);

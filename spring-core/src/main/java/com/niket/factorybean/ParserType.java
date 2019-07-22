@@ -1,7 +1,7 @@
-package com.niket;
+package com.niket.factorybean;
 
 public enum ParserType {
-    XML("xmlParser"), JSON("jsonParser");
+    XML("xmlParser"), JSON("jsonParser"), CSVParser("csvParser");
 
     private final String value;
 
