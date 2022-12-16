@@ -9,7 +9,7 @@
     <name>spring-core</name>
     <packaging>war</packaging>
     <properties>
-        <spring.version>5.1.4.RELEASE</spring.version>
+        <spring.version>5.2.20.RELEASE</spring.version>
         <spring-security.version>5.1.4.RELEASE</spring-security.version>
         <mockito.spring.boot.version>1.4.4.RELEASE</mockito.spring.boot.version>
         <javax.inject.version>1</javax.inject.version>
